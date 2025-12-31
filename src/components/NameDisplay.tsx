@@ -40,7 +40,7 @@ const letterVariants: Variants = {
   },
 };
 
-export const NameDisplay = ({ name = "Ahmed Hamza" }: NameDisplayProps) => {
+export const NameDisplay = ({ name = "Ahamed Hamza" }: NameDisplayProps) => {
   const words = name.split(" ");
 
   return (
